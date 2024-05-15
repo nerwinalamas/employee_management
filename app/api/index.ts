@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@/utils/client";
+import prisma from "@/utils/client";
 import { revalidatePath } from "next/cache";
 
 export const getEmployees = async () => {
